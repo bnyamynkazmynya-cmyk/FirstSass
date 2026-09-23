@@ -1,0 +1,46 @@
+* {
+  font-family: Geneva;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  padding: 30px;
+  background-color: rgb(102, 102, 102);
+}
+header h1 {
+  color: rgb(230, 230, 230);
+  text-align: center;
+}
+
+main {
+  display: flex;
+}
+main nav {
+  padding-top: 25px;
+  background-color: rgb(204, 204, 204);
+}
+main nav ul {
+  flex: 1;
+}
+main nav ul li {
+  list-style: none;
+}
+main nav ul li a {
+  display: block;
+  text-align: left;
+}
+main aside {
+  padding: 30px;
+  background-color: rgb(241, 241, 241);
+}
+
+footer {
+  padding: 15px;
+  background-color: rgb(119, 119, 119);
+}
+footer p {
+  color: rgb(230, 230, 230);
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */

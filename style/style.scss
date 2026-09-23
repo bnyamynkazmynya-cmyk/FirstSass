@@ -1,0 +1,61 @@
+$FontFamily: Geneva;
+$TheWhiteRGB : rgb(230, 230, 230);
+$bg-secondary : rgb(102, 102, 102);
+$footerRGB : rgb(119, 119, 119);
+$SectionRGB : rgb(241, 241, 241);
+$NavRGB : rgb(204, 204, 204);
+
+* {
+    font-family: $FontFamily;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 30px;
+    background-color: $bg-secondary;
+
+    h1 {
+        color: $TheWhiteRGB;
+        text-align: center;
+    }
+
+}
+
+main {
+    display: flex;
+
+    nav {
+        padding-top: 25px;
+        
+        background-color: $NavRGB;
+
+        ul {
+            flex: 1;
+            
+            li {
+                list-style: none;
+                a{
+                    display: block;
+                    text-align: left;
+                }
+            }
+        }
+    }
+
+    aside {
+        padding: 30px;
+        background-color: $SectionRGB;
+    }
+}
+
+footer {
+    padding: 15px;
+    background-color: $footerRGB;
+
+    p {
+        color: $TheWhiteRGB;
+        text-align: center;
+    }
+}
